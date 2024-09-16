@@ -1,0 +1,4 @@
+custom-icon as favicon
+flexbox-container
+left => class.dessert-gallery
+right => class.cart-section, id#cart

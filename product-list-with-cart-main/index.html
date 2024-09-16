@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- custom-icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/rainbow-dessert.svg"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Desserts | Product list with cart</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Desserts</h1>
+    </div>
+    <!-- I need an empty container to hold the items; the container will be populated from the Javascript file  -->
+    <div class="container">
+      <div class="dessert-gallery">
+        <!-- JSON data will be displayed here -->
+        <!-- <div class="single-item">
+          <img src="./assets/images/image-waffle-desktop.jpg" alt="waffle" />
+          <div class="text">
+            <h6 class="category"><small> Waffle</small></h6>
+            <h3 class="dessert-name">Waffle with Berries</h3>
+            <h4 class="dessert-price">$6.50</h4>
+          </div> 
+          <div class="add-to-cart">
+            <ion-icon name="cart-outline"></ion-icon>
+            Add to Cart
+          </div>
+        </div>-->
+      </div>
+      <div id="cart" class="cart-section">
+        <h3>Your Cart (<span class="quantity">0</span>)</h3>
+        <img src="./assets/images/illustration-empty-cart.svg" alt="" />
+        <small><p>Your added items will appear here.</p></small>
+        <div id="cart-list"></div>
+      </div>
+    </div>
+    <!-- /container -->
+    <!-- footer -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Uzma Khan</a>.
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
